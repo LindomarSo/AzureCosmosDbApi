@@ -64,7 +64,7 @@ jobs:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
 
-  deploy:
+  deploy_staging:
     permissions:
       contents: none
     runs-on: ubuntu-latest
